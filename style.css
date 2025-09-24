@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #de4d4d, #fc8d8d, #ae0202);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x: hidden;
+    color: white;
+  }
+
+  header {
+    padding: 15px;
+  }
+  
+  .menu {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+    gap: 40px;
+    z-index: 2;
+  }
+
+  .texto h1 {
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #fff;
+  }
+
+  .garrafa {
+  width: 200px;
+  height: auto;
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.6));
+  }
+
+  .garrafa img {
+    width: 280px;
+    z-index: 3;
+    position: relative;
+  }
+
+  .logo-fundo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 0.30;
+  }
+  
+  .logo-fundo img {
+    max-width: 95vw;
+    height: auto;
+  }
+
+  footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .footer-content img {
+    width: 95px;
+  }
+  
+  .footer-content p {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+  
